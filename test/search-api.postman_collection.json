@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "b1614bdf-6040-4ffd-8242-22ff7a46aca6",
+		"name": "search-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7070/artist/qsqd",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"followAuthorizationHeader": false,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7070/artist/qsqd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"artist",
+						"qsqd"
+					]
+				},
+				"description": "Test case for an existing artist but with null atributes."
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7070/artist/test",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"followAuthorizationHeader": false,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7070/artist/pizza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"artist",
+						"pizza"
+					]
+				},
+				"description": "Test case for an existing artist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:7070/artist/qsdqsdqsd",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"followAuthorizationHeader": false,
+				"strictSSL": false
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7070/artist/qsdqsdqsd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"artist",
+						"qsdqsdqsd"
+					]
+				},
+				"description": "A test case of inexisting artist."
+			},
+			"response": []
+		}
+	]
+}

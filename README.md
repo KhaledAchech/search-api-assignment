@@ -13,8 +13,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
-      <ul>
         <li><a href="#used-modules">Used Modules</a></li>
       </ul>
     </li>
@@ -22,6 +20,13 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#notes">Notes</a>
+      <ul>
+        <li><a href="#output">Output Files</a></li>
+        <li><a href="#tests">Test Samples</a></li>
       </ul>
     </li>
   </ol>
@@ -42,10 +47,10 @@ This has been a really fun assignment for me.
 
 ### Used Modules
 
-- [axios](https://nodejs.org/en/)
-- [csv-writer](https://expressjs.com/)
-- [dotenv](https://expressjs.com/)
-- [nodemon](https://expressjs.com/)
+- [axios](https://www.npmjs.com/package/axios)
+- [csv-writer](https://www.npmjs.com/package/csv-writer)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
 GETTING STARTED
 
@@ -65,7 +70,7 @@ Setting up the project locally.
    npm i
    ```
 
-3. Include the .env file in the project root directory and change your last.fm api key accordingly.
+3. Include the dotenv file in the project root directory and change your last.fm api key accordingly.
 
    ```sh
    API_KEY = &api_key=MY_API_KEY
@@ -75,3 +80,8 @@ Setting up the project locally.
    ```sh
    npm start
    ```
+
+### Notes
+
+- Output files : I added kept the output files out of the .gitignore to provide some samples of my results.
+- Test samples : I added some of the tests I ran using postman in the folder called test in a js collection.
