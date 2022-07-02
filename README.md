@@ -83,5 +83,5 @@ Setting up the project locally.
 
 ### Notes
 
-- Output files : I added kept the output files out of the .gitignore to provide some samples of my results.
-- Test samples : I added some of the tests I ran using postman in the folder called test in a js collection.
+- Output files : I kept the output files out of the .gitignore to provide some samples of my results.
+- Test samples : I added some of the tests I ran using postman in the folder called test in a json collection file.
